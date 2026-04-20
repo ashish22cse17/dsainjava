@@ -14,8 +14,9 @@ public class Syntax {
             System.out.println(arr[i]);
         }
         // printing the array marks
-        // for (int i = 0; i < marks.length; i++) {
-        //     System.out.println(marks[i]);
-        // }
+        for (int i = 0; i < marks.length; i++) {
+            System.out.println(marks[i]);
+        }
+        sc.close();
     }
 }
