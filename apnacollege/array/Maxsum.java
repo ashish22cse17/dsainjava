@@ -11,7 +11,7 @@ public class Maxsum {
                 int end = j;
                 curSum=0;
                 for (int k = start; k <=end; k++) {
-                    curSum=curSum+arr[k];
+                    curSum=curSum*arr[k];
                 }
                 if(curSum>maxSum){
                     maxSum=curSum;

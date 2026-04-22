@@ -6,6 +6,7 @@ public class Prefixsum {
         int prrSum[]=new int[arr.length];
         prrSum[0]=arr[0];
         for (int i = 1; i < prrSum.length; i++) {
+            
             prrSum[i]=prrSum[i-1]+arr[i];
         }
 
