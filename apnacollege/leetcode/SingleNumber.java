@@ -29,14 +29,18 @@ package leetcode;
 public class SingleNumber {
     public static int singleNumber(int[] nums) {
 
-        for (int i = 0; i < nums.length; i++) {
-            //do after the sorting lecture complete
+        int result = 0;
+        
+        for (int num : nums) {
+            result = result ^ num;
         }
-        return 0;
+        
+        return result;
     }
     public static void main(String[] args) {
         int arr[]={4,1,2,1,2};
         int n=singleNumber(arr);
+        System.out.println(n);
     }
     
 }
