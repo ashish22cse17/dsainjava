@@ -7,6 +7,8 @@ public class andoperation {
         System.out.println(a|b);
         System.out.println(a&b);
         System.out.println(a^b);
+        System.out.println(1&1);
+
         System.out.println(~a);
         System.out.println(5<<2);//  a<<b=a*2^b
         System.out.println(5>>2);//  a<<b=a/2^b
