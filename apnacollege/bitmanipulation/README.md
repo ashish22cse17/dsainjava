@@ -1,0 +1,1 @@
+Do all bit manipulation again form start as skipped some lectures
