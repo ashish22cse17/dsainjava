@@ -8,7 +8,6 @@ public class Dectobin {
     //         int rem=n%2;
     //         retnum=retnum*10+rem;
     //         n=n/2;
-            
     //     }
     //     return retnum;
     // }
@@ -23,6 +22,27 @@ public class Dectobin {
             
         }
         return retnum;
+    }
+    public static int convertertobase7(int n){
+        int retnum=0;
+        int power=0;
+        int num=n;
+        if(n<0){
+            num=-n;;
+        }
+        while (num>0) {
+            int rem=num%7;
+            retnum=retnum+rem*(int )Math.pow(10, power);
+            power++;
+            num=num/7;
+            
+        }
+        if(n<0){
+            return -retnum;
+        }
+        else{
+            return retnum;
+        }
     }
     public static void main(String[] args) {
         int n=4;

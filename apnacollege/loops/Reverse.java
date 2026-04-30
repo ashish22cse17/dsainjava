@@ -1,5 +1,7 @@
 package loops;
 
+import java.util.List;
+
 public class Reverse {
     public static void main(String[] args) {
         int n=9876;
